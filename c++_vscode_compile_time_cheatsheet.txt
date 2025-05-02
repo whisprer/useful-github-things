@@ -1,0 +1,36 @@
+basic compile command to run from root:
+
+mkdir build
+cd build
+cmake ..
+cmake --build .
+
+
+adv. compile command to run fom root:
+
+mkdir build
+cd build
+cmake -G "Visual Studio 17 2022" ..
+cmake --build . --config Release
+
+
+
+
+
+extra fancy versions:
+
+cmake --build . --config Release	   [release squish]
+
+cmake --build . --config debug --VERBASE-1 [debug verbose]
+
+
+
+others:
+
+cmake --build . --target clean	  [clean the build]
+
+cmake --build . --target install  [install - if set up target]
+
+
+
+[set up target means to have a properly set up `CMakeLists.txt` file]
