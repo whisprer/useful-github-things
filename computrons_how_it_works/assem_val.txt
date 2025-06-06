@@ -1,0 +1,10 @@
+mov rax, 0x0075207656c2069
+push rax
+mov rsi, rsp
+mov rdx, 0x7
+mox rdi, 0x1
+mox ax, 0x1
+syscall
+
+printf("I luv u");
+In assembly

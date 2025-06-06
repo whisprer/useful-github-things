@@ -1,0 +1,10 @@
+python -m venv xxx
+
+
+xxx\Scripts\activate
+
+
+pip install -r requirements.txt
+
+
+pip install package_name
